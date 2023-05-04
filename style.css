@@ -343,13 +343,13 @@ form .btn2{
     #header nav img{
         background-image: url("images/pic-5.jpg");
         height: 100px;
-        width: 100px;
+        width: auto;
         
     }
     #header img{
         background-image: url("images/pic-3.jpg");
         height: 300px;
-        width: 300px;
+        width: auto;
         /* position: absolute; */
         
     }
@@ -444,13 +444,13 @@ form .btn2{
     #header nav img{
         background-image: url("images/pic-5.jpg");
         height: 100px;
-        width: 100px;
+        width: auto;
         
     }
     #header img{
         background-image: url("images/pic-3.jpg");
         height: 320px;
-        width: 320px;
+        width: auto;
         /* position: absolute; */
         
     }
@@ -547,13 +547,13 @@ form .btn2{
     #header nav img{
         background-image: url("images/pic-5.jpg");
         height: 60px;
-        width: 60px;
+        width: auto;
         
     }
     #header img{
         background-image: url("images/pic-3.jpg");
         height: 250px;
-        width: 250px;
+        width: auto;
         /* position: absolute; */
         
     }
@@ -652,13 +652,13 @@ form .btn2{
     #header nav img{
         background-image: url("images/pic-5.jpg");
         height: 100px;
-        width: 100px;
+        width: auto;
         
     }
     #header img{
         background-image: url("images/pic-3.jpg");
         height: 450px;
-        width: 450px;
+        width: auto;
         /* position: absolute; */
         
     }
@@ -756,13 +756,13 @@ form .btn2{
     #header nav img{
         background-image: url("images/pic-5.jpg");
         height: 100px;
-        width: 100px;
+        width: auto;
         
     }
     #header img{
         background-image: url("images/pic-3.jpg");
         height: 500px;
-        width: 500px;
+        width: auto;
         /* position: absolute; */
         
     }
