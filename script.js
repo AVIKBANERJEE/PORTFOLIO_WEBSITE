@@ -9,7 +9,7 @@ function opentab(tabname) {
         tabcontent.classList.remove("active-tab");
     }
     event.currentTarget.classList.add("active-link");
-    document.getElementById(tabname).classList.add("active-tab"); //it will take one of the three id at a time fromt the function opentab and display it
+    document.getElementById(tabname).classList.add("active-tab"); //it will take one of the three id at a time from the function opentab and display it
 }
 // ------------------------for sidemenu( for responsive)--------------
 var sidemenu=document.getElementById("sidemenu");
@@ -36,3 +36,16 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbwE1tTfiDZAymeCJxgdFM
                 })
                 .catch(error => console.error('Error!', error.message))
         })
+
+// -----------------------------------------------adding typewritter effect--------------------------
+
+/*$("#typed").typed({
+    strings: ["Hi, I'm Avik Banerjee From WestBengal,India"],
+    typeSpeed: 100,
+    startDelay: 0,
+    backSpeed: 60,
+    backDelay: 2000,
+    loop: true,
+    cursorChar: "|",
+    contentType: 'html'
+});*/
