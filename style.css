@@ -41,7 +41,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 25px;
     position: relative;
 }
 nav ul li a::after{
@@ -60,16 +60,67 @@ nav ul li a:hover::after{
     margin-top: 10%;
     font-size: 30px;
     color: white;
-
-
 }
-.header-text h1{
+/*----------------------------------for type writting effect--------------------------------*/
+.header-text  h1{
     margin-top: 5%;
     font-size:  60px;
+    width: 0ch; /*it means it will start from 0 character*/
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text 3s steps(44) infinite;
+    border-right: 3px solid red;
+
 }
-.header-text h1 span{
+@keyframes text {
+    0% {
+        width: 0ch;
+    }
+    50% {
+        width: 20ch;
+    }
+    
+}
+.header-text  h1 span{
+    color:red;
+}
+.header-text p{
+    font-size:40px;
+}
+
+
+
+
+/*.header-text h1 span{
+    margin-top: 5%;
+    font-size:  60px;
+    position: relative;
+}
+.header-text h1 span::after{
+    content: "";
+    left: 0;
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid red;
+    animation: typing 3s steps(40) infinite;
+
+}
+@keyframes typing {
+    40%,
+    60%{
+        left: calc(100% + 30px);
+    }
+    100%{
+        left: 0;
+    }
+    
+}*/
+
+/*.header-text h1 span{
     color: red;
-}
+}*/
 /* ---------------------------ABOUT------------------------ */
 #about{
     padding: 80px 0px;
@@ -341,13 +392,13 @@ form .btn2{
 }
 @media only screen and (min-width: 300px) and (max-width: 400px){
     #header nav img{
-        background-image: url("images/pic-5.jpg");
+        background-image: url("pic-5.jpg");
         height: 100px;
         width: auto;
         
     }
     #header img{
-        background-image: url("images/pic-3.jpg");
+        background-image: url("pic-3.jpg");
         height: 300px;
         width: auto;
         /* position: absolute; */
@@ -355,7 +406,7 @@ form .btn2{
     }
     /* for about scetion image  */
     #about .row img{
-        background-image: url("images/pic-7.JPG");
+        background-image: url("pic-7.JPG");
         height: 300px;
         width: 300px;
 
@@ -442,13 +493,13 @@ form .btn2{
 /* ---------adding media query for medium screen---------------------- */
 @media only screen and (min-width: 401px) and (max-width: 500px){
     #header nav img{
-        background-image: url("images/pic-5.jpg");
+        background-image: url("pic-5.jpg");
         height: 100px;
         width: auto;
         
     }
     #header img{
-        background-image: url("images/pic-3.jpg");
+        background-image: url("pic-3.jpg");
         height: 320px;
         width: auto;
         /* position: absolute; */
@@ -456,7 +507,7 @@ form .btn2{
     }
     /* for about scetion image  */
     #about .row img{
-        background-image: url("images/pic-7.JPG");
+        background-image: url("pic-7.JPG");
         height: 320px;
         width: 320px;
 
@@ -545,13 +596,13 @@ form .btn2{
 
 @media only screen and (min-width: 100px) and (max-width: 299px){
     #header nav img{
-        background-image: url("images/pic-5.jpg");
+        background-image: url("pic-5.jpg");
         height: 60px;
         width: auto;
         
     }
     #header img{
-        background-image: url("images/pic-3.jpg");
+        background-image: url("pic-3.jpg");
         height: 250px;
         width: auto;
         /* position: absolute; */
@@ -559,7 +610,7 @@ form .btn2{
     }
     /* for about scetion image  */
     #about .row img{
-        background-image: url("images/pic-7.JPG");
+        background-image: url("pic-7.JPG");
         height: 320px;
         width: 320px;
 
@@ -650,13 +701,13 @@ form .btn2{
 
 @media only screen and (min-width: 500px) and (max-width: 600px){
     #header nav img{
-        background-image: url("images/pic-5.jpg");
+        background-image: url("pic-5.jpg");
         height: 100px;
         width: auto;
         
     }
     #header img{
-        background-image: url("images/pic-3.jpg");
+        background-image: url("pic-3.jpg");
         height: 450px;
         width: auto;
         /* position: absolute; */
@@ -664,7 +715,7 @@ form .btn2{
     }
     /* for about scetion image  */
     #about .row img{
-        background-image: url("images/pic-7.JPG");
+        background-image: url("pic-7.JPG");
         height: 400px;
         width: 400px;
 
@@ -754,13 +805,13 @@ form .btn2{
 /* -----------for small ipads---------------------- */
 @media only screen and (min-width: 601px) and (max-width: 770px){
     #header nav img{
-        background-image: url("images/pic-5.jpg");
+        background-image: url("pic-5.jpg");
         height: 100px;
         width: auto;
         
     }
     #header img{
-        background-image: url("images/pic-3.jpg");
+        background-image: url("pic-3.jpg");
         height: 500px;
         width: auto;
         /* position: absolute; */
@@ -768,7 +819,7 @@ form .btn2{
     }
     /* for about scetion image  */
     #about .row img{
-        background-image: url("images/pic-7.JPG");
+        background-image: url("pic-7.JPG");
         height: 400px;
         width: 400px;
 
