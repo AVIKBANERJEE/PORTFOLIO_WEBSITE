@@ -20,7 +20,7 @@ function closemenu(){
     sidemenu.style.right="-200px";
 }
 // ---------------------making the form work for everyone whoever gives any input-----
-const scriptURL = 'https://script.google.com/macros/s/AKfycbwE1tTfiDZAymeCJxgdFMJXARCGANfmjR9sdZ8Fwc84DJ8bJfbUoOLE7wElZaniOaFUFQ/exec'
+/*const scriptURL = 'https://script.google.com/macros/s/AKfycbwE1tTfiDZAymeCJxgdFMJXARCGANfmjR9sdZ8Fwc84DJ8bJfbUoOLE7wElZaniOaFUFQ/exec'
         const form = document.forms['submit-to-google-sheet']
         const msg = document.getElementById("msg")
 
@@ -35,7 +35,7 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbwE1tTfiDZAymeCJxgdFM
                     form.reset();
                 })
                 .catch(error => console.error('Error!', error.message))
-        })
+        })*/
 
 // -----------------------------------------------adding typewritter effect--------------------------
 
